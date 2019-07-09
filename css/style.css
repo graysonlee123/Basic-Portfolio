@@ -52,18 +52,19 @@ nav a {
     clear: left;
     width: 960px;
     background-color: #ffffff;
-    margin: 40px auto;
+    margin: 40px auto 100px;
     padding: 20px;
     border: 1px solid #dddddd;
     overflow: auto;
+    box-sizing: border-box;
 }
 
 #about-image {
     float: left;
     padding-right: 20px;
     padding-bottom: 20px;
-    width: 200px;
-    height: 200px;
+    width: 230px;
+    height: 230px;
 }
 
 /* Contact Styles */ 
@@ -77,7 +78,7 @@ nav a {
 }
 
 .contact-labels {
-    margin-bottom: 6px;
+    margin-bottom: 0px;
 }
 
 .contact-input {
@@ -151,6 +152,6 @@ footer {
     color: #ffffff;
     text-align: center;
     padding: 20px 0;
-    position: absolute;
+    position: fixed;
     bottom: 0;
 }
