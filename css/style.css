@@ -12,6 +12,12 @@ h2 {
     font-family: 'Georgia', Times, 'Times New Roman', serif;
 }
 
+hr {
+    margin: 20px 0;
+}
+
+/* Header Styles */ 
+
 header {
     background-color: #ffffff;
 }
@@ -35,9 +41,35 @@ nav {
     padding-top: 27px;
 }
 
+/* Content Styles */ 
+
 .container {
     clear: left;
     width: 960px;
     background-color: #ffffff;
-    margin: 0 auto;
+    margin: 40px auto;
+    padding: 20px;
+    border: 1px solid #dddddd;
+    overflow: auto;
+}
+
+#about-image {
+    float: left;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    width: 200px;
+    height: 200px;
+}
+
+/* Footer Styles */
+
+footer {
+    width: 100%;
+    background-color: #666666;
+    border-top: 4px solid #4aaaa5;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 10px;
+    position: absolute;
+    bottom: 0;
 }
