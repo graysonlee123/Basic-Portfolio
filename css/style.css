@@ -63,20 +63,12 @@ nav {
 
 /* Contact Styles */ 
 
-form {
-
-}
-
 .contact-labels,
-.contact-input {
+.contact-input,
+#contact-message {
     display: block;
     width: 100%;
-}
-
-#contact-message {
-    width: 100%;
-    height: 100px;
-    margin-bottom: 20px;
+    height: 1.5em;
 }
 
 .contact-labels {
@@ -84,6 +76,11 @@ form {
 }
 
 .contact-input {
+    margin-bottom: 20px;
+}
+
+#contact-message {
+    height: 100px;
     margin-bottom: 20px;
 }
 
@@ -103,7 +100,7 @@ footer {
     border-top: 4px solid #4aaaa5;
     color: #ffffff;
     text-align: center;
-    padding: 20px 10px;
+    padding: 20px 0;
     position: absolute;
     bottom: 0;
 }
