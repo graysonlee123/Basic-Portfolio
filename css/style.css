@@ -3,15 +3,41 @@ body {
     margin: 0;
     padding: 0;
     background-image: url("../images/pattern.png");
+    color: #777777;
 }
 
 h1,
 h2 {
     color: #4aaaa5;
-    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+
+header {
+    background-color: #ffffff;
+}
+
+h1 {
+    margin: 0;
+    float: left;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding: 25px 40px;
 }
 
 .header-container {
     width: 960px;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+nav {
+    float: right;
+    padding-top: 27px;
+}
+
+.container {
+    clear: left;
+    width: 960px;
     background-color: #ffffff;
+    margin: 0 auto;
 }
