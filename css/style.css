@@ -41,6 +41,11 @@ nav {
     padding-top: 27px;
 }
 
+nav a {
+    color: #777777;
+    text-decoration: none;
+}
+
 /* Index or About Styles */ 
 
 .container {
@@ -111,7 +116,7 @@ nav {
     text-align: center;
     padding: 20px 0;
     position: absolute;
-    bottom: 20px; 
+    bottom: 10px; 
     color: #ffffff;
     font-size: 1.2em;
     text-decoration: none;
