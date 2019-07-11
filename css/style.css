@@ -101,6 +101,9 @@ nav a:hover {
     display: block;
     width: 100%;
     height: 1.5em;
+    box-sizing: border-box;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    padding: 6px 8px;
 }
 
 .contact-labels {
@@ -109,7 +112,7 @@ nav a:hover {
 
 .contact-input {
     margin-bottom: 20px;
-    padding: 2px 4px;
+    height: 2.4em;
 }
 
 #contact-message {
