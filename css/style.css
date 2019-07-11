@@ -30,10 +30,6 @@ section p:nth-last-of-type(1) {
     padding-bottom: 0;
 }
 
-#active-page {
-    color: #EF6F6C;
-}
-
 /* Header Styles */ 
 
 header {
@@ -69,7 +65,11 @@ nav a {
 }
 
 nav a:hover {
-    color: #EF6F6C;
+    color: #EF6F6C !important;
+}
+
+#active-page {
+    color: #333;
 }
 
 /* Index or About Styles */ 
