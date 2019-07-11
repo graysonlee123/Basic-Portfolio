@@ -99,6 +99,7 @@ nav a {
 
 .contact-input {
     margin-bottom: 20px;
+    padding: 2px 4px;
 }
 
 #contact-message {
@@ -112,6 +113,7 @@ nav a {
     border: none;
     background-color: #4aaaa5;
     cursor: pointer;
+    font-size: 16px;
 }
 
 /* Portfolio Styles */
