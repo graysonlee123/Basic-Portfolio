@@ -89,8 +89,8 @@ nav a:hover {
     float: left;
     padding-right: 20px;
     padding-bottom: 20px;
-    width: 230px;
-    height: 230px;
+    width: 240px;
+    height: 240px;
 }
 
 /* Contact Styles */ 
@@ -133,18 +133,24 @@ nav a:hover {
 
 /* Portfolio Styles */
 
-.project {
+.project-img {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-size: auto 110%;
+    background-position: center;
+    transition: background-size 300ms ease;
+}
+
+.project-container {
     width: 31.33%;
     float: left;
     height: 300px;
     padding: 0px;
     margin: 20px 1% 0;
-    position: relative;
-    background-position: center;
-    background-size: cover;
 }
 
-.project a {
+.project-img figcaption {
     width: 100%;
     background-color: #4aaaa5;
     text-align: center;
@@ -157,27 +163,31 @@ nav a:hover {
     transition: all 300ms ease;
 }
 
-.project a:hover {
+.project-container:hover .project-img figcaption {
     background-color: #EF6F6C;
 }
 
-.project:nth-of-type(1) {
+.project-container:hover .project-img {
+    background-size: auto 105%;
+}
+
+.project-container:nth-of-type(1) .project-img {
     background-image: url("../images/mountains1.jpg");
 }
 
-.project:nth-of-type(2) {
+.project-container:nth-of-type(2) .project-img {
     background-image: url("../images/mountains2.jpg");
 }
 
-.project:nth-of-type(3) {
+.project-container:nth-of-type(3) .project-img {
     background-image: url("../images/mountains3.jpg");
 }
 
-.project:nth-of-type(4) {
+.project-container:nth-of-type(4)  .project-img{
     background-image: url("../images/mountains4.jpg");
 }
 
-.project:nth-of-type(5) {
+.project-container:nth-of-type(5) .project-img {
     background-image: url("../images/mountains5.jpg");
 }
 
