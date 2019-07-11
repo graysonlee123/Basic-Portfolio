@@ -108,6 +108,8 @@ nav a:hover {
 
 .contact-labels {
     margin-bottom: 0px;
+    padding-left: 0;
+    margin-bottom: 8px;
 }
 
 .contact-input {
