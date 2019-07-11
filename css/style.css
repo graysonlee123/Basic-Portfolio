@@ -16,6 +16,20 @@ hr {
     margin: 20px 0;
 }
 
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+p {
+    padding-bottom: 26px;
+    line-height: 150%;
+}
+
+section p:nth-last-of-type(1) {
+    padding-bottom: 0;
+}
+
 /* Header Styles */ 
 
 header {
@@ -28,6 +42,8 @@ h1 {
     background-color: #4aaaa5;
     color: #ffffff;
     padding: 25px 40px;
+    font-size: 30px;
+    font-weight: bold;
 }
 
 .header-container {
