@@ -30,6 +30,10 @@ section p:nth-last-of-type(1) {
     padding-bottom: 0;
 }
 
+#active-page {
+    color: #EF6F6C;
+}
+
 /* Header Styles */ 
 
 header {
